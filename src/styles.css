@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #141414;
+  width: 100%;
+  color: white;
+}
+
+.nav .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: linear-gradient(
+    to right,
+    rgb(238, 50, 91),
+    rgb(255, 0, 55)
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 8rem;
+}
